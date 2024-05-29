@@ -10,15 +10,15 @@ variable "region" {
 
 variable "vpc_name" {
   type = string
-  default = "default"
+  default = "autopilotnetwork"
 }
 
 variable "subnet_name" {
   type = string
-  default = "default"
+  default = "autopilotsubnet"
 }
 
 variable "cluster_name" {
   type = string
-  default = "gkek8senv"
+  default = "autopilotgke"
 }
